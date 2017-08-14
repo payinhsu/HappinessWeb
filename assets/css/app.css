@@ -1,0 +1,285 @@
+.hidden {
+    display: none;
+}
+
+.order-detail {
+	float: left;
+	margin: 50px;
+}
+
+.order-list td {
+	border:1px;
+	border-style: solid;
+}
+
+.order-detail td {
+	border:1px;
+	border-style: solid;
+}
+
+#sidebar-wrapper {
+    overflow: hidden;
+}
+
+#sidebar-view {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    float: right;
+}
+
+#sidebar-view > li{
+    float: right;
+}
+
+#sidebar-view li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+#sidebar-view li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.component-title h4{
+    float: left;
+}
+.component-title-btns {
+    float: right;
+}
+
+.component-form {
+    clear: both;
+}
+
+.mapIframe {
+    margin-left : auto;
+    margin-right: auto;
+    width    : 95%;
+    height   : 427px;
+    overflow : hidden;
+    position : relative;
+    top      : 30px;
+}
+
+.mapIframe iframe
+{
+    position : absolute;
+    top      : -115px;
+    left     : 0px;
+    width    : 95%;
+    height   : 427px;
+}
+
+.button-h {
+    border: 2px solid #ff6600;
+    padding: 10px 40px;
+    background: #ff6600;
+    border-radius: 10px;
+    color: white;
+}
+
+.subDiv {
+    border: 2px solid #385d8a;
+    padding: 1px 4px;
+    background: #dbeef4;
+    border-radius: 10px;
+}
+
+.btn-lightCoral
+{
+    color: #fff !important;
+    background-color: #F08080 !important;
+    border-color: #DB7093 !important;
+}
+
+.btn-pink
+{
+    color: #fff !important;
+    background-color: #FFC0CB !important;
+    border-color: #FFA07A !important;
+}
+
+.btn-orange
+{
+    padding: 1px 20px;
+    color: white !important;
+    background-color: #f79646 !important;
+    border-color: #f79646 !important;
+    border-radius: 10px;
+}
+
+.btn-green
+{
+    padding: 1px 20px;
+    color: white !important;
+    background-color: #00b050 !important;
+    border-color: #00b050 !important;
+    border-radius: 10px;
+}
+
+.btn-oliveDrab
+{
+    color: #fff !important;
+    background-color: #6B8E23 !important;
+    border-color: #2E8B57 !important;
+}
+
+.btnBlock
+{
+    background:#fff;
+    border-radius:5px;
+    padding:10px;
+    line-height:50px;
+    font-size:18px;
+    color:#000;
+    min-height:60px;
+}
+
+.listBox
+{
+    position:relative;
+    padding-bottom:50px;
+}
+
+.listBox .box table
+{
+    width:95%;
+    margin:0 auto;
+}
+
+.listBox .box table tr
+{
+    border-bottom:1px solid #EEE;
+}
+
+.listBox .box table th ,
+.listBox .box table td
+{
+    text-align:left;
+    line-height:40px;
+}
+
+.listBox .box table th
+{
+    font-size:18px;
+    color:#000;
+}
+
+.listBox .box table td
+{
+    font-size:16px;
+    color:#666;
+}
+
+.listBox .box table td input[type=text] ,
+.listBox .box table td input[type=number] ,
+.listBox .box table td input[type=email] ,
+.listBox .box table td select ,
+.listBox .box textarea
+{
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    background: #FFF;
+    border: 1px solid #999;
+    border-radius: 5px;
+    resize:none;
+}
+
+.address
+{
+    max-width:480px;
+}
+
+ul { /* 取消ul預設的內縮及樣式 */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.drop-down-menu {
+    border: #ccc 1px solid;
+    display: inline-block;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+ul.drop-down-menu li {
+    position: relative;
+    white-space: nowrap;
+    border-right: #ccc 1px solid;
+}
+
+ul.drop-down-menu > li:last-child {
+    border-right: none;
+}
+
+ul.drop-down-menu > li {
+    float: left; /* 只有第一層是靠左對齊*/
+}
+
+ ul.drop-down-menu a {
+    background-color: #fff;
+    color: #333;
+    display: block;
+    padding: 0 7px;
+    text-decoration: none;
+    line-height: 40px;
+
+}
+ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
+    background-color: #ef5c28;
+    color: #fff;
+}
+ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+    background-color: #ef5c28;
+    color: #fff;
+}
+ul.drop-down-menu ul {
+    border: #ccc 1px solid;
+    position: absolute;
+    z-index: 99;
+    left: -1px;
+    top: 100%;
+   min-width: 180px;
+}
+
+ul.drop-down-menu ul li {
+    border-bottom: #ccc 1px solid;
+}
+
+ul.drop-down-menu ul li:last-child {
+    border-bottom: none;
+}
+
+ul.drop-down-menu ul ul { /*第三層以後的選單出現位置與第二層不同*/
+    z-index: 999;
+    top: 10px;
+    left: 90%;
+}
+
+ul.drop-down-menu ul { /*隱藏次選單*/
+    display: none;
+}
+
+ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+    display: block;
+}
+
+.tr-blue {
+    background: #8eb4e3;
+}
+
+.tr-lightblue {
+    background: #b7dee8;
+}
+
+.my-modal {
+    width: 90vw    /* Occupy the 90% of the screen width */
+}

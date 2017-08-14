@@ -1,0 +1,33 @@
+紀錄 redux state 規劃結構:
+
+{
+	auth: {
+		id:'001',
+		...
+		token:'xxx',
+		roles:[],
+		permissions:[]
+	},
+	page: {
+		index:{				- 首頁資料
+			videos:[
+				{
+					videoId: 'xxx',
+					isBanner: false,
+					...
+				}
+			]
+		},
+		ac: {
+			... 會員中心 state
+		}
+		... 其它頁面各自的 state
+	},
+	definitions:{			- 定義檔參考資料
+		permissions:[
+			{id, name}, 
+			..
+		],
+		... 其它定義檔
+	}
+}
